@@ -28,12 +28,7 @@ System environment variables take priority over `.env` values.
    export MONGO_DB="attendance_db"
    ```
 
-3. **Seed sample data**:
-   ```bash
-   python sample_seed.py
-   ```
-
-4. **Start the FastAPI application**:
+3. **Start the FastAPI application**:
    ```bash
    uvicorn app.main:app --port 8000
    ```

@@ -1,0 +1,31 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+# HROne candidate kit - keep local only
+PROBLEM_STATEMENT.docx
+openapi.yaml
+DATA_MODEL.md
+sample_seed.py
+sample_data/
